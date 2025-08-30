@@ -40,6 +40,9 @@ A simple client-server chatbot application using Python sockets and Flask, power
    ```bash
    python server.py
    ```
+   ```bash
+   python client.py
+   ```
 2. **Access the web interface**
    - Open your browser and go to `http://127.0.0.1:5000`
 
@@ -48,5 +51,10 @@ A simple client-server chatbot application using Python sockets and Flask, power
 - For production, use a WSGI server (e.g., Gunicorn) and a reverse proxy (e.g., Nginx).
 - Never commit your real `.env` file or API keys to public repositories.
 
-## License
-This project is licensed under the MIT License.
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
